@@ -36,7 +36,6 @@ for p = 1:37
         filepath = ['/Volumes/Backup Plus/ÌÛÍ´Êý¾Ý/preprocessed/' pname '_dz.set'];
     end
     
-    
 
     EEG = pop_loadset(filepath);
     EEG = pop_resample( EEG, fs);
